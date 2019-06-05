@@ -53,7 +53,7 @@ I assume a familiarity with cmake and CMakeLists. The code was tested with CMake
 #### Installing DTS
 This repository is setup with submodules which need to be also clones using the recursive flag as follows:
    ```
-   git clone --recursive https://github.com/akashbapat/domain_transform_solver.git
+   git clone --recursive https://github.com/meder411/domain_transform_solver.git
    cd domain_transform_solver
    mkdir build
    cd build
