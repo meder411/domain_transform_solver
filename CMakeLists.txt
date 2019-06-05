@@ -41,7 +41,7 @@ if(BUILD_TESTING)
 endif(BUILD_TESTING)
 
 find_package(OpenCV REQUIRED)
-set(OPENCV_LIBRARIES opencv_core opencv_imgproc opencv_imgcodecs opencv_highgui opencv_calib3d)
+set(OPENCV_LIBRARIES opencv_core opencv_imgproc opencv_highgui opencv_calib3d)
 
 if(BUILD_CLI)
 # Useful for passing commandline arguments to program.
